@@ -16,15 +16,15 @@
 
 #define LED_PIN PIN_PA15
 
-#define BOOT_USART_MODULE                 SERCOM1
+#define BOOT_USART_MODULE                 SERCOM0
 #define BOOT_USART_MASK                   APBAMASK
-#define BOOT_USART_BUS_CLOCK_INDEX        MCLK_APBAMASK_SERCOM1
-#define BOOT_USART_PAD_SETTINGS           UART_RX_PAD1_TX_PAD0
+#define BOOT_USART_BUS_CLOCK_INDEX        MCLK_APBAMASK_SERCOM0
+#define BOOT_USART_PAD_SETTINGS           UART_RX_PAD2_TX_PAD0
 #define BOOT_USART_PAD3                   PINMUX_UNUSED
-#define BOOT_USART_PAD2                   PINMUX_UNUSED
-#define BOOT_USART_PAD1                   PINMUX_PA01D_SERCOM1_PAD1
-#define BOOT_USART_PAD0                   PINMUX_PA00D_SERCOM1_PAD0
-#define BOOT_GCLK_ID_CORE                 SERCOM1_GCLK_ID_CORE
-#define BOOT_GCLK_ID_SLOW                 SERCOM1_GCLK_ID_SLOW
+#define BOOT_USART_PAD2                   PINMUX_PA06D_SERCOM0_PAD2
+#define BOOT_USART_PAD1                   PINMUX_UNUSED
+#define BOOT_USART_PAD0                   PINMUX_PA04D_SERCOM0_PAD0
+#define BOOT_GCLK_ID_CORE                 SERCOM0_GCLK_ID_CORE
+#define BOOT_GCLK_ID_SLOW                 SERCOM0_GCLK_ID_SLOW
 
 #endif
